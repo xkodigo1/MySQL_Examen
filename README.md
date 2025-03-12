@@ -2,23 +2,28 @@
 
 Listar todos los libros disponibles
 ```sql
+SELECT * FROM LIBRO
 # Introduce aquí las consultas.
 ```
 Buscar libros por género
 ```sql
+SELECT * FROM LIBRO WHERE genero = 'Ciencia Ficcion'
 # Introduce aquí las consultas.
 ```
 Obtener información de un libro por ISBN
 ```sql
 # Introduce aquí las consultas.
+SELECT * FROM LIBRO WHERE ISBN = '978-3-16-148410-0'
 ```
 Contar el número de libros en la biblioteca
 ```sql
 # Introduce aquí las consultas.
+SELECT COUNT(*) AS total_
 ```
 Listar todos los autores
 ```sql
 # Introduce aquí las consultas.
+SELECT * FROM AUTOR
 ```
 Buscar autores por nombre
 ```sql
